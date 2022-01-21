@@ -1,0 +1,17 @@
+{
+    "creators": [
+        {
+            "affiliation": "University of Lübeck, Lübeck",
+            "name": "Ulrich, Hannes",
+            "orcid": "0000-0002-8349-6798"
+        }
+    ],
+    "description": "mentored (MEtadata aNnotaTiOn pREDiction) is a BiLSTM neural network trained to predict UMLS Codes to a given metadata description.",
+    "keywords": [
+        "Metadata",
+        "BiLSTM",
+        "Unified Medical Lanugage System"
+    ],
+    "title": "mentored",
+    "upload_type": "software"
+}
