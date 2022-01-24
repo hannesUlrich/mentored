@@ -1,5 +1,6 @@
-## mentored
-mentored (MEtadata aNnotaTiOn pREDiction) is a BiLSTM neural network trained to predict UMLS Codes to a given metadata description. The network consists of three layers: embedding layer, BiLSTM with 2 cells and a linear classifier. 
+## mentored [![DOI](https://zenodo.org/badge/451429201.svg)](https://zenodo.org/badge/latestdoi/451429201)
+
+mentored (MEtadata aNnotaTiOn pREDiction) is a BiLSTM neural network trained to predict UMLS Codes to a given metadata description. The network consists of three layers: embedding layer, BiLSTM with 2 cells and a linear classifier.  
 
 ![Network Archicture](doc/network.png)
 
