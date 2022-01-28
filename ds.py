@@ -3,7 +3,7 @@ import numpy as np
 from torch.utils.data import Dataset
 
 
-class Data(Dataset):
+class data(Dataset):
     def __init__(self, X, Y):
         self.X = X
         self.y = Y
