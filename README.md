@@ -19,9 +19,7 @@ mentored (MEtadata aNnotaTiOn pREDiction) is a BiLSTM neural network trained to 
 
 # usage 
 
-You need to implement two function within the umls_connect class in order to run the vocabulary construction.
+You need the data files in order to run the training. Two files are needed: MDM metadata and the corresponding MeSH files. 
+Both files need to have the following shapes: "CODE";"PHRASE" e.g. "C0027989;newspapers"
 
-1. run construct_pickle.py --file XXX.csv
-The script expects a CSV file containing the trainings data. The input shape is "CODE";"PHRASE" --> "C0027989;newspapers"
-2. run augmentation.py
-3. run training.py
+Put the files in the data directory, change to path in the file "start_training" and run! 
